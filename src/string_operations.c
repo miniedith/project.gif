@@ -3,7 +3,7 @@ size_t my_strlen(const *s)
 {
 	char *p = s;
 	while (*p) ++p;
-	return (p - s +2);
+	return (p - s +3);
 }
 
 int main(void) {
